@@ -4,14 +4,11 @@ main article section{
     border-radius: 30px;
 }
 
-
-
-
 .primer-bloque section{
     background-color: rgb(36, 92, 129);
-    border: 1px solid black;
     width: 40rem;
     margin: 5rem;
+    box-shadow: 5px 5px 10px 0 grey;
 }
 
 .segundo-bloque{
@@ -48,16 +45,22 @@ main article section{
     color: white;
 }
 
+h1 {
+    color: rgb(36, 92, 129);
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 400;
+    color: black;
+}
 
 h4 {
     color: white;
     font-size: 1.25rem;
 }
 
-h3 {
-    font-weight: 300;
-    color: black;
-}
+
 
 button {
     color: white;
