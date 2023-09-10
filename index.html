@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente de finanzas personales</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main class="container-fluid text-center">
+        <h1>Asistente de finanzas personales</h1>
+        <article class="primer-bloque row justify-content-center">
+            <section id="categorizacion" class="col-6">
+                <h2>Categorizacion</h2>
+                <div>
+                    <h3>Ingresos fijos mensuales</h3>
+                    <h4 id="ingresos-fijos-mensuales">Sin registrar</h4>
+                    <input type="text" id="ingresos-fijos" placeholder="Ingresa el monto"> 
+                </div>
+                <div>
+                    <h3>Gastos fijo mensuales</h3>
+                    <h4 id="gastos-fijos-mensuales">Sin registrar</h4>
+                    <input type="text" id="gastos-fijos"> 
+                </div>
+                <button id="boton-categorizacion">Aceptar</button>
+            </section>
+            <section id="planificacion" class="col-6">
+                <h2>Planificacion</h2>
+                <div>
+                    <h3 id="presupuesto-inicial">Pendiente de categorizacion</h3>
+                </div>
+                <div>
+                    <h3>Presupuesto Establecido</h3>
+                    <h4 id="presupuesto-objetivo-mensual">Sin definir</h4>
+                    <input type="text" id="presupuesto-deseado">
+                </div>
+                <div>
+                    <h3>Margen del presupuesto (%)</h3>
+                    <h4 id="margen-establecido-mensual">Sin definir</h4>
+                    <input type="text" id="margen-deseado">
+                </div>
+                <button id="boton-planificacion">Ingresar</button>
+            </section>
+        </article>
+        <div class="row justify-content-center">
+            <article class="segundo-bloque row align-content-center">
+                <section class="justify-content-center row">
+                    <div class="col">
+                        <h2>Estado actual del presupuesto</h2>
+                        <h4 id="presupuesto-mensual-estado">Pendiente de categorizacion / planificacion</h4>
+                    </div>
+                    <div class="col">
+                        <h2>Presupuesto mensual establecido</h2>
+                        <h4 id="presupuesto-mensual-establecido">Pendiente de categorizacion / planificacion</h4>
+                    </div>
+                </section>
+                <section id="registrar-movimientos" class="row">
+                    <div id="registrar-ingreso" class="col-6">
+                        <input type="text" id="registrar-ingreso-input">
+                        <button id="registrar-ingreso-btn">Registrar ingreso</button>
+                    </div>
+                    <div id="registrar-gasto" class="col-6">
+                        <input type="text" id="registrar-gasto-input">
+                        <button id="registrar-gasto-btn">Registrar gasto</button>
+                    </div>
+                </section>
+            </article>
+            <article class="tercer-bloque col-6">
+                <section class="row">
+                    <div>
+                        <h2>Vigencia del presupuesto</h2>
+                    </div>
+                    <div id="vigencia-presupuesto">
+                        <h3>Presupuesto sin definir</h3>
+                    </div>
+                </section>
+                <section class="row">
+                    <div>
+                        <h3>Ahorro actual</h3>
+                        <h4 id="ahorro-actual">Sin definir</h4>
+                    </div>
+                </section>
+            </article>
+        </div>
+
+        <article class="cuarto-bloque">
+            <section>
+                <div>
+                    <h2>Historico de presupuestos</h2>
+                </div>
+                <div>
+                    <ul id="presupuestos-historico"></ul>
+                    <button id="presupuestos-historico-boton">Mostrar historico</button>
+                </div>
+                <div>
+                </div>
+            </section>
+        </article>
+
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

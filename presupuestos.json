@@ -1,0 +1,108 @@
+
+[
+    {
+        "mes": "Enero",
+        "tipo": "Inicial",
+        "valor": 10000
+    },
+    {
+        "mes": "Enero",
+        "tipo": "Objetivo",
+        "valor": 7500
+    },
+    {
+        "mes": "Enero",
+        "tipo": "Actual",
+        "valor": 3000
+    },
+    {
+        "mes": "Febrero",
+        "tipo": "Inicial",
+        "valor": 12500
+    },
+    {
+        "mes": "Febrero",
+        "tipo": "Objetivo",
+        "valor": 9000
+    },
+    {
+        "mes": "Febrero",
+        "tipo": "Actual",
+        "valor": 4000
+    },
+    {
+        "mes": "Marzo",
+        "tipo": "Inicial",
+        "valor": 12500
+    },
+    {
+        "mes": "Marzo",
+        "tipo": "Objetivo",
+        "valor": 10000
+    },
+    {
+        "mes": "Marzo",
+        "tipo": "Actual",
+        "valor": 2000
+    },
+    {
+        "mes": "Abril",
+        "tipo": "Inicial",
+        "valor": 13000
+    },
+    {
+        "mes": "Abril",
+        "tipo": "Objetivo",
+        "valor": 9000
+    },
+    {
+        "mes": "Abril",
+        "tipo": "Actual",
+        "valor": 1000
+    },
+    {
+        "mes": "Mayo",
+        "tipo": "Inicial",
+        "valor": 15000
+    },
+    {
+        "mes": "Mayo",
+        "tipo": "Objetivo",
+        "valor": 10000
+    },
+    {
+        "mes": "Mayo",
+        "tipo": "Actual",
+        "valor": 2000
+    },
+    {
+        "mes": "Junio",
+        "tipo": "Inicial",
+        "valor": 16000
+    },
+    {
+        "mes": "Junio",
+        "tipo": "Objetivo",
+        "valor": 12000
+    },
+    {
+        "mes": "Junio",
+        "tipo": "Actual",
+        "valor": 3000
+    },
+    {
+        "mes": "Julio",
+        "tipo": "Inicial",
+        "valor": 16000
+    },
+    {
+        "mes": "Julio",
+        "tipo": "Objetivo",
+        "valor": 13000
+    },
+    {
+        "mes": "Julio",
+        "tipo": "Actual",
+        "valor": 2000
+    }
+]
